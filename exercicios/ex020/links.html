@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>Personalizando lnks</title>
+
+    <style>
+        /* Seletores personalizados
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        a{
+            color:brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color:rgb(238, 194, 20);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:yellow;
+        }
+
+            a::after{
+            content:' (link) ';
+            color: black;
+        }
+        .especial{
+            background-color: grey;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/leonmbs-24" target="blank">Reposítório do github </a> </li>
+        <li><a href="https://www.linkedin.com/in/leonardo-menezes-84927a19b/" target="blank" class="especial">Meu linkedin</a></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>

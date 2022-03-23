@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Grouping tags</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(173, 173, 173);
+        margin: 0px;
+        color: rgb(68, 63, 63);
+        font-weight: bold;
+    }
+    header{
+        width:auto;
+        background-color: rgb(46, 176, 216);
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        height: 100px;
+
+    }
+    nav{
+        background-color: rgb(53, 252, 252, 0.398);
+        padding: 4px;
+        margin: 10px;
+        width: auto;
+        box-shadow:2px 2px 4px 1px rgba(0, 0, 0, 0.959);
+    }
+   
+
+    nav > a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin-right: 40px;
+    } 
+    nav > a:hover{
+        text-decoration: underline;  
+    }
+
+
+    section{
+        background-color: rgba(253, 252, 252, 0.398);
+        padding: 10px;
+        margin: 10px;
+        height: 300px;
+    }
+    main{
+        background-color:  rgb(16, 191, 245);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 1 0px 0px;
+        BOX-SHADOW: 4PX 4px rgba(0, 0, 0, 0.104);
+    }
+
+    article > aside {
+        background-color: darkblue;
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+        color: white;
+        height: 25px;
+    }
+
+    footer{
+        background-color: darkblue;
+        color: aliceblue;
+        padding: 3px;
+        margin:0px;
+        text-align: center;
+    }
+    footer > p {
+        margin: 0px;
+    }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+    </header>
+    
+<main>
+
+    <section>ESPORTES POLÍTICA TCNOLOGIA
+
+    </section> 
+        <section id="assuntos ">
+            <h2>Noticias sobre a Italia</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error in totam deleniti nemo molestias obcaecati ut dignissimos vitae neque ab cum, sint aperiam modi, quos iste, aspernatur ea eaque! Doloribus?</p>
+        </section>
+        <section class="Noticias">
+            <article>
+                <aside>       
+                <p>Artigo Escrito por alguém Italiano.</p> 
+                </aside>
+            </article>
+        </section>
+
+
+</main>
+
+    <footer>Desenvolvido por Leonardo Menezes</footer>
+</body>
+</html>
