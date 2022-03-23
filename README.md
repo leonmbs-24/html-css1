@@ -1,3 +1,3 @@
-Curso de HTML e CSS do Cursos em Video
+Curso de HTML e CSS do Curso em Video
 
 Estou aprendendo a criar sites e agora vou gerenciar os meus  repositórios!
