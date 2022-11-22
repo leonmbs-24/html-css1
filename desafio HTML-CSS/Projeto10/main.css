@@ -91,7 +91,7 @@ nav>a:hover {
 }
 
 nav {
-    text-align:left;
+    text-align:center;
     background-color: var(--cor4);
     padding: 4px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
